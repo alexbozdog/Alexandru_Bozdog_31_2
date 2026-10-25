@@ -1,0 +1,8 @@
+Articole: 7083
+Termeni in dictionar: 19241
+Cuvinte pastrate: 837165
+Prelucrare: corpul articolului, litere mici, tokenizare, stopwords engleza, stemming Porter.
+Dictionar comun intregii colectii, inclusiv Training si Testing, indici de la 0, ordine de prima aparitie.
+Fisier: dictionar_si_vectori.txt; mai intai DICTIONAR GLOBAL, apoi VECTORI RARI.
+Al n-lea rand dupa VECTORI RARI corespunde articolului cu rand=n din articole.tsv.
+Format: indice:frecventa bruta; componentele zero sunt omise; rand gol = articol fara termeni.

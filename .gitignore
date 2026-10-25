@@ -1,4 +1,7 @@
 **/bin/
 **/obj/
-# Dataset Reuters si rezultate generate
-/Reuters/
+
+# Exclude datasetul Reuters, dar pastreaza rezultatele
+/Reuters/**
+!/Reuters/**/
+!/Reuters/**/Rezultate/**
